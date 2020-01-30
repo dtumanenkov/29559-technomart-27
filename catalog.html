@@ -61,23 +61,37 @@
       <aside>
         <section>
           <h2>Фильтр товаров</h2>
-        </section>
-        <section>
+          <span>Цена:</span>
+          <div class="range-controls">
+            <div class="scale"> <div  style="width=70%"  class="bar"></div></div>
+            <div class="toggle min-toggle"></div>
+            <div class="toggle max-toggle"></div>
+          </div>
+          <div class="price-controls">
+            <input class="min-price" type="text" value="0">
+            <input class="max-price" type="text" value ="30000">
+          </div>
+
           <h2>Производители:</h2>
           <input type="checkbox" checked><label>bosch</label>
           <input type="checkbox"><label>Интерскол</label>
           <input type="checkbox" checked><label>Makita</label>
           <input type="checkbox"><label>Dewalt</label>
           <input type="checkbox"><label>Hitachi</label>
-        </section>
-        <section>
+
           <h2>Питание:</h2>
           <input type="radio" checked><label>Аккумулятор</label>
           <input type="radio"><label>Сетевые</label>
+          <button> Показать</button>
         </section>
       </aside>
       <section>
-        <h2>Сортировка</h2>
+        <h2>Сортировка:</h2>
+        <button> По цене</button>
+        <button> По типу</button>
+        <button> По функционалу</button>
+        <button> </button>
+        <button> </button>
       </section>
       <section>
         <ul>
@@ -100,6 +114,18 @@
           </li>
         </ul>
       </section>
+      <div class="pagination">
+        <ul>
+          <li><a href="#">1</a></li>
+          <li><a>2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">Следующая</a></li>
+        </ul>
+      </div>
+      <article>
+        <h2>Пара слов о перфораторах</h2>
+        <p>Перфоратор - .... </p>
+      </article>
     </main>
     <footer>
       <p>
@@ -139,7 +165,6 @@
         <a href="mailto:info@technomart.ru">info@technomart.ru</a>
         <p>Разработано -</p>
         <a href="htmlacademy.ru">htmlacademy.ru</a>
-
       </section>
     </footer>
   </body>
