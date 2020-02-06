@@ -10,9 +10,10 @@
       <ul>
         <li><a href="index.html"><img src="img/Logo-tehnomart-main.png" width="220" height="47" alt="Интернет магазин Tehnomart"></a></li>
         <li>
-          <form >
+          <form action="https://echo.htmlacademy.ru" method="post">
             <label>Поиск:</label>
-            <input type="search" name="search" title="Поиск:">
+            <input type="search" name="search" placeholder="Поиск:">
+            <button type="submit"></button>
           </form>
         </li>
         <li><a href="#bookmarks" title="Закладки">Закладки: 0</a></li>
@@ -29,8 +30,8 @@
           <p>+7 (495) 555-05-55<br>
           г. Санкт-Петербург, ул. Конюшенная, д 19/8</p>
         </li>
-        <li><a href="#login" title="Войти">Войти</a></li>
-        <li><a href="#signin" title="Регистрация">Регистрация</a></li>
+        <li><a href="#login.html" alt="Войти">Войти</a></li>
+        <li><a href="#signin.html" alt="Регистрация">Регистрация</a></li>
         <li>
           <p>Равшан Джамшутович</p>
           <a href="cart.html">Мои заказы</a>
@@ -79,8 +80,8 @@
                                 </div>
                             </div>
                             <div class="slider-middle">
-                                <div class="slider-button-left"></div>
-                                <div class="slider-button-right"></div>
+                              <button class="slider-button-left" type="button"></button>
+                              <button class="slider-button-right" type="button"></button>
                             </div>
                             <div class="slider-bottom">
                                 <div class="slider-bottom-ref">
@@ -246,6 +247,27 @@
         </p>
         <a href="map.html"><img src="img/map.png" width="300" height="158" alt="Карта"></a>
         <a href="contacts.html">Заблудились? Напишите нам!</a>
+      </section>
+      <!--Попап с обратной связью -->
+      <section>
+        <h2>Обратная связь</h2>
+        <span class="upline"></span>
+        <button class="close"></button>
+        <form action="feedback.html" method="post">
+          <span>Ваше имя:</span>
+          <span>Ваш e-mail:</span>
+          <input type="text" name="name" placeholder="Имя Фамилия">
+          <input type="email" name="mail" placeholder="email@example.com">
+          <span>Текст письма:</span>
+          <input type="text" name="textarea" placeholder="В свободной форме">
+          <button type="button">Отправить</button>
+        </form>
+      </section>
+      <!--Попап с большой  картой-->
+      <section>
+        <h2>Большая карта</h2>
+        <button class="close"></button>
+        <img src="img/map-big.png" width="940" height="446.2" alt="Большая карта">
       </section>
     </main>
     <footer>
