@@ -11,8 +11,8 @@
         <li><a href="index.html"><img src="img/Logo-tehnomart-main.png" width="220" height="47" alt="Интернет магазин Tehnomart"></a></li>
         <li>
           <form action="https://echo.htmlacademy.ru" method="post">
-            <label>Поиск:</label>
-            <input type="search" name="search" placeholder="Поиск:">
+            <label for="search">Поиск:</label>
+            <input id="search" type="search" name="search" placeholder="Поиск:">
             <button type="submit"></button>
           </form>
         </li>
@@ -263,11 +263,52 @@
           <button type="button">Отправить</button>
         </form>
       </section>
+
       <!--Попап с большой  картой-->
       <section class="visually-hidden">
         <h2>Большая карта</h2>
         <button type="button" class="close"></button>
         <img src="img/map-big.png" width="940" height="446.2" alt="Большая карта">
+      </section>
+
+      <!--Попап с регистрацией-->
+      <section class="visually-hidden">
+        <h2>Регистрация</h2>
+        <span class="upline"></span>
+        <button class="close"></button>
+        <form action="register.html" method="post">
+          <p>
+            <label for="user-name">Ваше имя:</label>
+            <input id="user-name" type="text" name="name" placeholder="Имя Фамилия">
+          </p>
+          <p>
+            <label for="user-mail">Ваш e-mail:</label>
+            <input id="user-mail" type="email" name="mail" placeholder="email@example.com">
+          </p>
+          <p>
+            <label for="user-password">Пароль:</label>
+            <input id="user-password" type="password" name="password" placeholder="Пароль">
+          </p>
+          <button type="submit">Отправить</button>
+        </form>
+      </section>
+
+      <!--Попап с входом-->
+      <section class="visually-hidden">
+        <h2>Вход</h2>
+        <span class="upline"></span>
+        <button class="close"></button>
+        <form action="signin.html" method="post">
+          <p>
+            <label for="user-mail">Ваш e-mail:</label>
+            <input id="user-mail" type="email" name="mail" placeholder="email@example.com">
+          </p>
+          <p>
+            <label for="user-password">Пароль:</label>
+            <input id="user-password" type="password" name="password" placeholder="Пароль">
+          </p>
+          <button type="submit">Отправить</button>
+        </form>
       </section>
     </main>
     <footer>
