@@ -1,3 +1,7 @@
+
+html { box-sizing: border-box; }
+*, *::before, *::after { box-sizing: inherit; }
+
 body {
   margin: 0;
   padding: 0;
@@ -7,5 +11,56 @@ body {
   line-height: 24px;
   font-weight: 700;
   color: #ffffff;
-  text-transform: uppercase;
+  background-color: #000000;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+.header-top {
+  font-family: Cuprum;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.06;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.header-search {
+  color: #ffffff;
+}
+/* Убираем синий цвет ссылок и фиолетовый посещенных */
+a.link:active,
+a.link:hover,
+a.link{
+  color: #ffffff;
+}
+
+.header-description {
+  font-family: Cuprum;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ee3643;
+}
+
+.phone {
+  font-family: Cuprum;
+  font-size: 21px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ee3643;
 }
