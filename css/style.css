@@ -34,7 +34,7 @@ a {
 .header-search {
   color: #ffffff;
 }
-/* Убираем синий цвет ссылок и фиолетовый посещенных */
+/* Убираем синий цвет ссылок и фиолетовый посещенных ссылок */
 a.link:active,
 a.link:hover,
 a.link{
@@ -162,6 +162,7 @@ a.header-user {
   text-align: center;
   color: #ffffff;
   background-color:#ee3643;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -175,4 +176,165 @@ h2 {
   text-align: left;
   color: #32425c;
   text-transform: uppercase
+}
+
+.product-name {
+  font-family: PTSans;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.product-model {
+  font-family: PTSans;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.product-price {
+  font-family: PTSans;
+  font-size: 17px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.06;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.product-price-no-discount {
+  font-family: PTSans;
+  font-size: 17px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.06;
+  letter-spacing: normal;
+  text-align: center;
+  color: #a9a9a9;
+  text-decoration-line:line-through;
+}
+
+.product-buy {
+ font-family: Cuprum;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  display: none;
+}
+
+.product-to-bookmark {
+  font-family: Cuprum;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: center;
+  color: #32425c;
+  display: none;
+}
+h3{
+  font-family: Cuprum;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.services-description {
+  font-family: PTSans;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.85;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.services-switcher {
+  font-family: Cuprum;
+  font-size: 21px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: left;
+  color:#ffffff;
+}
+.services-switcher:active{
+  color: #32425c;
+}
+
+.services-name {
+  font-family: Cuprum;
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #32425c;
+}
+
+.services-service {
+  font-family: PTSans;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.85;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.about-company-description {
+  font-family: PTSans;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.85;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.delivery-companies {
+  font-family: Cuprum;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
 }
