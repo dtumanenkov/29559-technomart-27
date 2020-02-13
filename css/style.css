@@ -19,6 +19,9 @@ img {
 a {
   text-decoration: none;
 }
+header{
+  background-color: #f4f7f9;
+}
 .header-top {
   font-family: Cuprum;
   font-size: 17px;
@@ -337,4 +340,79 @@ h3{
   letter-spacing: normal;
   text-align: left;
   color: #000000;
+}
+
+.forms-label {
+  font-family: Cuprum;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.forms-input-text {
+  font-family: PTSans;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #a9a9a9;
+}
+
+.footer-adress {
+  font-family: Cuprum;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #f3f7f9;
+}
+
+.footer-links {
+  font-family: Cuprum;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #f3f7f9;
+}
+
+.footer-orange-color {
+  color: #ffda96;
+}
+
+.footer-copyright {
+  font-family: Cuprum;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.footer-feedback {
+  font-family: Cuprum;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: left;
 }

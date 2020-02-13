@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
-    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,700|PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,700%7cPT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
@@ -256,18 +256,22 @@
         <a class="link red-link" href="contacts.html">Заблудились? Напишите нам!</a>
       </section>
       <!--Попап с обратной связью -->
-      <section class="visually-hidden">
+      <section class="visually-hidden feedback">
         <h2>Обратная связь</h2>
         <span class="upline"></span>
         <button class="close"></button>
         <form action="feedback.html" method="post">
-          <span>Ваше имя:</span>
-          <span>Ваш e-mail:</span>
-          <input type="text" name="name" placeholder="Имя Фамилия">
-          <input type="email" name="mail" placeholder="email@example.com">
-          <span>Текст письма:</span>
-          <input type="text" name="textarea" placeholder="В свободной форме">
-          <button type="button">Отправить</button>
+        <p>
+          <label class="forms-label" for="user-name">Ваше имя:</label>
+          <input class="forms-input-text" id="user-name" type="text" name="name" placeholder="Имя Фамилия">
+        </p>
+        <p>
+           <label class="forms-label" for="user-mail">Ваш e-mail:</label>
+           <input class="forms-input-text" id="user-mail" type="email" name="mail" placeholder="email@example.com">
+        </p>
+          <label class="forms-label" for="user-feedback">Текст письма:</span>
+          <input class="forms-input-text" type="text" name="textarea" placeholder="В свободной форме">
+          <button class="link red-link" type="submit">Отправить</button>
         </form>
       </section>
 
@@ -285,18 +289,18 @@
         <button class="close"></button>
         <form action="register.html" method="post">
           <p>
-            <label for="user-name">Ваше имя:</label>
-            <input id="user-name" type="text" name="name" placeholder="Имя Фамилия">
+            <label class="forms-label" for="user-name">Ваше имя:</label>
+            <input class="forms-input-text" id="user-name" type="text" name="name" placeholder="Имя Фамилия">
           </p>
           <p>
-            <label for="user-mail">Ваш e-mail:</label>
-            <input id="user-mail" type="email" name="mail" placeholder="email@example.com">
+            <label class="forms-label" for="user-mail">Ваш e-mail:</label>
+            <input class="forms-input-text" id="user-mail" type="email" name="mail" placeholder="email@example.com">
           </p>
           <p>
-            <label for="user-password">Пароль:</label>
-            <input id="user-password" type="password" name="password" placeholder="Пароль">
+            <label class="forms-label" for="user-password">Пароль:</label>
+            <input class="forms-input-text" id="user-password" type="password" name="password" placeholder="Пароль">
           </p>
-          <button type="submit">Отправить</button>
+          <button class="link red-link" type="submit">Отправить</button>
         </form>
       </section>
 
@@ -307,44 +311,44 @@
         <button class="close"></button>
         <form action="signin.html" method="post">
           <p>
-            <label for="user-mail">Ваш e-mail:</label>
-            <input id="user-mail" type="email" name="mail" placeholder="email@example.com">
+            <label class="forms-label" for="user-mail">Ваш e-mail:</label>
+            <input class="forms-input-text" id="user-mail" type="email" name="mail" placeholder="email@example.com">
           </p>
           <p>
-            <label for="user-password">Пароль:</label>
-            <input id="user-password" type="password" name="password" placeholder="Пароль">
+            <label class="forms-label" for="user-password">Пароль:</label>
+            <input class="forms-input-text" id="user-password" type="password" name="password" placeholder="Пароль">
           </p>
-          <button type="submit">Отправить</button>
+          <button link red-link type="submit">Отправить</button>
         </form>
       </section>
     </main>
     <footer>
       <p>
         <a href=index.html><img src="img/logo-tehnomart-footer.png" width="220" height="68" alt="Интернет магазин Tehnomart"></a><br>
-        г. Санкт-Петербург, ул. Конюшенная, д 19/8<br>
-          +7 (812) 555-05-55
+        <span class="footer-adress">г. Санкт-Петербург, ул. Конюшенная, д 19/8<br>
+          +7 (812) 555-05-55</span>
       </p>
       <section>
         <h2> Навигация по сайту</h2>
         <nav>
           <ul>
-            <li><a href="about.html">Компания</a></li>
-            <li><a href="news.html">Новости</a></li>
-            <li><a href="catalog.html">Каталог</a></li>
-            <li><a href="delivery.html">Доставка</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
+            <li><a class="footer-links" href="about.html">Компания</a></li>
+            <li><a class="footer-links" href="news.html">Новости</a></li>
+            <li><a class="footer-links" href="catalog.html">Каталог</a></li>
+            <li><a class="footer-links" href="delivery.html">Доставка</a></li>
+            <li><a class="footer-links" href="contacts.html">Контакты</a></li>
           </ul>
           <ul>
-            <li><a href="materials.html">Материалы</a></li>
-            <li><a href="tehnics.html">Техника</a></li>
-            <li><a href="instrument.html">Инструмент</a></li>
-            <li><a href="utp.html">Спецпредложение</a></li>
+            <li><a class="footer-links footer-orange-color" href="materials.html">Материалы</a></li>
+            <li><a class="footer-links footer-orange-color" href="tehnics.html">Техника</a></li>
+            <li><a class="footer-links footer-orange-color" href="instrument.html">Инструмент</a></li>
+            <li><a class="footer-links footer-orange-color" href="utp.html">Спецпредложение</a></li>
           </ul>
         </nav>
       </section>
       <section>
         <h2>Обратная связь</h2>
-        <p>&copy; 2010 - 2013 Компания &laquo;Техномарт&raquo;<br/>
+        <p  class="footer-copyright">&copy; 2010 - 2013 Компания &laquo;Техномарт&raquo;<br/>
           Все права защищены
         </p>
         <ul>
@@ -352,10 +356,14 @@
           <li><a href="http://facebook.com" class="btn-social btn-social-fb"><img src="img/fb-icon.png" width="42" height="42" alt="fb.com"></a></li>
           <li><a href="http://instagram.com" class="btn-social btn-social-inst"><img src="img/insta-icon.png" width="42" height="42" alt="instagram.com"></a></li>
         </ul>
-        <p>Обратная связь:</p>
-        <a href="mailto:info@technomart.ru">info@technomart.ru</a>
-        <p>Разработано -</p>
-        <a href="htmlacademy.ru">htmlacademy.ru</a>
+        <p class="footer-feedback">
+          <span >Обратная связь:</span>
+          <a class="footer-orange-color" href="mailto:info@technomart.ru">info@technomart.ru</a>
+        </p>
+        <p class="footer-feedback">
+          <span>Разработано -</span>
+          <a class="footer-orange-color" href="htmlacademy.ru">htmlacademy.ru</a>
+        </p>
       </section>
     </footer>
   </body>
