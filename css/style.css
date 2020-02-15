@@ -32,6 +32,7 @@ header{
   letter-spacing: normal;
   text-align: left;
   color: #ffffff;
+  background-color: #293449;
 }
 
 .header-search {
@@ -80,7 +81,7 @@ a.link{
   color: #32425c;
 }
 
-a.header-user {
+.header-user {
   font-family: Cuprum;
   font-size: 21px;
   font-weight: normal;
@@ -90,6 +91,7 @@ a.header-user {
   letter-spacing: normal;
   text-align: left;
   color: #000000;
+  background-color: #ffffff;
 }
 
 .header-navigation {
@@ -279,7 +281,7 @@ h3{
   color: #000000;
 }
 
-.services-switcher {
+.services-switcher-button {
   font-family: Cuprum;
   font-size: 21px;
   font-weight: bold;
@@ -289,6 +291,7 @@ h3{
   letter-spacing: normal;
   text-align: left;
   color:#ffffff;
+  background-color:#32425c;
 }
 .services-switcher:active{
   color: #32425c;
@@ -416,3 +419,81 @@ h3{
   letter-spacing: normal;
   text-align: left;
 }
+
+.header-button-green {
+  background-color: #63a63e;
+}
+
+.header-button-white {
+  background-color: #ffffff;
+}
+
+.header-link-underline {
+  font-family: Cuprum;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #32425c;
+  text-decoration: underline;
+}
+
+.yellow {
+  background-color: #ffbf47;
+}
+
+.cyan {
+  background-color:#3bbce3;
+}
+
+.pink {
+  background-color: #dc91d8;
+}
+
+.green {
+ background-color: #8ed78f;
+}
+
+.yellow-2 {
+  background-color:#ffc047;
+}
+
+.section-header {
+  background-color:#f9f5f0;
+}
+
+.promo-slider {
+  background-color: #76685b;
+}
+
+.services {
+  background-color: #f4f7f9;
+}
+
+.service-switcher-button-active {
+  background-color: #ffffff;
+  color:#32425c;
+}
+footer{
+  background-color:#32425c;
+}
+
+.feedback-services {
+  background-color: #293449;
+}
+
+.upline {
+  background-color: #ee3643;
+}
+
+.feedback {
+  background-color: #ffffff;
+}
+
+.button-container {
+  background-color: #f4f4f4;
+}
+
