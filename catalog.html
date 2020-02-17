@@ -54,7 +54,7 @@
         </ul>
       </nav>
     </header>
-    <main>
+    <main class="container">
       <h2>Перфораторы</h2>
       <!-- Pagination -->
       <ul>
@@ -72,13 +72,17 @@
             <fieldset>
               <legend class="filter-header">Цена:</legend>
               <div class="range-controls">
-                <div class="scale"> <div  style="width=70%"  class="bar"></div></div>
+                <div class="scale">
+                  <div class="bar"></div>
+                </div>
                 <div class="toggle min-toggle"></div>
                 <div class="toggle max-toggle"></div>
               </div>
               <input class="input-price" type="text" value="0">
               <input class="input-price" type="text" value ="30000">
               <hr>
+            </fieldset>
+            <fieldset>
               <legend class="filter-header">Производители:</legend>
                 <input class="filter-item" type="checkbox" id="filter-bosch" checked><label for="filter-bosch">Bosch</label>
                 <input class="filter-item" type="checkbox" id="filter-interskol"><label for="filter-interskol">Интерскол</label>
@@ -86,6 +90,8 @@
                 <input class="filter-item" type="checkbox" id="filter-dewalt"><label for="filter-dewalt">Dewalt</label>
                 <input class="filter-item" type="checkbox" id="filter-hitachi"><label for="filter-hitachi">Hitachi</label>
               <hr>
+            </fieldset>
+            <fieldset>
               <legend class="filter-header">Питание:</legend>
                 <input class="filter-item" type="radio" checked><label>Аккумулятор</label>
                 <input class="filter-item" type="radio"><label>Сетевые</label>
@@ -201,7 +207,7 @@
              <!-- <span>22500 р.</span> -->
               <a class="product-price" href="#">12500 Р.</a>
             </p>
-            <a hidden class="visually-hidden" class="product-buy" href="#">Купить</a>
+            <a hidden class="visually-hidden product-buy" href="#">Купить</a>
             <a hidden class="product-to-bookmark" href="#">В закладки</a>
           </li>
         </ul>
