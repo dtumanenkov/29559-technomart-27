@@ -7,7 +7,7 @@ body {
   padding: 0;
   width: 1200px;
   margin: 0 auto;
-  font-family: "Cuprum Regular", Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
   font-weight: 700;
@@ -24,7 +24,7 @@ header{
   background-color: #f4f7f9;
 }
 .header-top {
-  font-family: Cuprum;
+  min-height: 42px;
   font-size: 17px;
   font-weight: normal;
   font-stretch: normal;
@@ -40,6 +40,7 @@ header{
 }
 
 .header-search {
+  width:270px;
   color: #ffffff;
 }
 /* Убираем синий цвет ссылок и фиолетовый посещенных ссылок */
@@ -50,7 +51,7 @@ a.link{
 }
 
 .header-description {
-  font-family: Cuprum;
+
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -62,7 +63,7 @@ a.link{
 }
 
 .phone {
-  font-family: Cuprum;
+
   font-size: 21px;
   font-weight: normal;
   font-stretch: normal;
@@ -74,7 +75,7 @@ a.link{
 }
 
 .header-address {
-  font-family: Cuprum;
+
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
@@ -86,7 +87,7 @@ a.link{
 }
 
 .header-user {
-  font-family: Cuprum;
+
   font-size: 21px;
   font-weight: normal;
   font-stretch: normal;
@@ -99,7 +100,7 @@ a.link{
 }
 
 .header-navigation {
-  font-family: Cuprum;
+
   font-size: 17px;
   font-weight: normal;
   font-stretch: normal;
@@ -111,7 +112,7 @@ a.link{
 }
 
 .promo-link {
-  font-family: Cuprum;
+
   font-size: 24px;
   font-weight: bold;
   font-stretch: normal;
@@ -123,7 +124,7 @@ a.link{
 }
 
 .promo-description {
-  font-family: Cuprum;
+
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
@@ -136,7 +137,7 @@ a.link{
 }
 
 .slider-caption {
-  font-family: Cuprum;
+
   font-size: 36px;
   font-weight: bold;
   font-stretch: normal;
@@ -149,7 +150,7 @@ a.link{
 }
 
 .slider-slogan {
-  font-family: Cuprum;
+
   font-size: 18px;
   font-weight: normal;
   font-stretch: normal;
@@ -161,7 +162,7 @@ a.link{
 }
 
 .red-link {
-  font-family: Cuprum;
+
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
@@ -175,7 +176,7 @@ a.link{
 }
 
 h2 {
-  font-family: Cuprum;
+
   font-size: 30px;
   font-weight: normal;
   font-stretch: normal;
@@ -188,7 +189,7 @@ h2 {
 }
 
 .product-name {
-  font-family: PTSans;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
   font-size: 18px;
   font-weight: bold;
   font-stretch: normal;
@@ -200,7 +201,7 @@ h2 {
 }
 
 .product-model {
-  font-family: PTSans;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
   font-size: 18px;
   font-weight: bold;
   font-stretch: normal;
@@ -212,7 +213,7 @@ h2 {
 }
 
 .product-price {
-  font-family: PTSans;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
   font-size: 17px;
   font-weight: bold;
   font-stretch: normal;
@@ -224,7 +225,7 @@ h2 {
 }
 
 .product-price-no-discount {
-  font-family: PTSans;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
   font-size: 17px;
   font-weight: bold;
   font-stretch: normal;
@@ -237,7 +238,7 @@ h2 {
 }
 
 .product-buy {
- font-family: Cuprum;
+
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
@@ -250,7 +251,7 @@ h2 {
 }
 
 .product-to-bookmark {
-  font-family: Cuprum;
+
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
@@ -261,7 +262,7 @@ h2 {
   color: #32425c;
 }
 h3{
-  font-family: Cuprum;
+
   font-size: 30px;
   font-weight: normal;
   font-stretch: normal;
@@ -273,7 +274,7 @@ h3{
 }
 
 .services-description {
-  font-family: PTSans;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   font-stretch: normal;
@@ -285,7 +286,7 @@ h3{
 }
 
 .services-switcher-button {
-  font-family: Cuprum;
+
   font-size: 21px;
   font-weight: bold;
   font-stretch: normal;
@@ -301,7 +302,7 @@ h3{
 }
 
 .services-name {
-  font-family: Cuprum;
+
   font-size: 36px;
   font-weight: normal;
   font-stretch: normal;
@@ -313,7 +314,7 @@ h3{
 }
 
 .services-service {
-  font-family: PTSans;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   font-stretch: normal;
@@ -325,7 +326,7 @@ h3{
 }
 
 .about-company-description {
-  font-family: PTSans;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   font-stretch: normal;
@@ -337,7 +338,7 @@ h3{
 }
 
 .delivery-companies {
-  font-family: Cuprum;
+
   font-size: 18px;
   font-weight: normal;
   font-stretch: normal;
@@ -349,7 +350,7 @@ h3{
 }
 
 .forms-label {
-  font-family: Cuprum;
+
   font-size: 18px;
   font-weight: normal;
   font-stretch: normal;
@@ -361,7 +362,7 @@ h3{
 }
 
 .forms-input-text {
-  font-family: PTSans;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   font-stretch: normal;
@@ -373,7 +374,7 @@ h3{
 }
 
 .footer-adress {
-  font-family: Cuprum;
+
   font-size: 18px;
   font-weight: normal;
   font-stretch: normal;
@@ -385,7 +386,7 @@ h3{
 }
 
 .footer-links {
-  font-family: Cuprum;
+
   font-size: 18px;
   font-weight: normal;
   font-stretch: normal;
@@ -401,7 +402,7 @@ h3{
 }
 
 .footer-copyright {
-  font-family: Cuprum;
+
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -413,7 +414,7 @@ h3{
 }
 
 .footer-feedback {
-  font-family: Cuprum;
+
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -424,7 +425,13 @@ h3{
 }
 
 .header-button-green {
+  display: block;
+  box-sizing: border-box;
+  width: 150px;
+  height: 42px;
   background-color: #63a63e;
+  text-align: center;
+  vertical-align: bottom;
 }
 
 .header-button-white {
@@ -432,7 +439,7 @@ h3{
 }
 
 .header-link-underline {
-  font-family: Cuprum;
+
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -502,7 +509,7 @@ footer{
 
 
 .pagination-link {
-  font-family: PTSans;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   font-stretch: normal;
@@ -515,7 +522,7 @@ footer{
 }
 
 h1 {
-  font-family: Cuprum;
+
   font-size: 30px;
   font-weight: normal;
   font-stretch: normal;
@@ -528,7 +535,7 @@ h1 {
 }
 
 h4 {
-  font-family: PTSans;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   font-stretch: normal;
@@ -541,7 +548,7 @@ h4 {
 }
 
 .sort-button {
-  font-family: PTSans;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   font-stretch: normal;
@@ -558,7 +565,7 @@ h4 {
 }
 
 .filter-header {
-  font-family: PTSans;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
   font-size: 17px;
   font-weight: bold;
   font-stretch: normal;
@@ -571,7 +578,7 @@ h4 {
 }
 
 .filter-item {
-  font-family: PTSans;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
   font-size: 15px;
   font-weight: normal;
   font-stretch: normal;
@@ -585,7 +592,7 @@ h4 {
 
 .filter-button {
   border: solid 1px;
-  font-family: PTSans;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   font-stretch: normal;
@@ -598,7 +605,7 @@ h4 {
 }
 
 .input-price {
-  font-family: PTSans;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
   font-size: 17px;
   font-weight: normal;
   font-stretch: normal;
@@ -624,7 +631,7 @@ h4 {
 }
 
 .page {
-  font-family: PTSans;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   font-stretch: normal;
@@ -638,7 +645,7 @@ h4 {
 }
 
 .page-active {
-  font-family: PTSans;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   font-stretch: normal;
@@ -651,7 +658,7 @@ h4 {
 }
 
 .message-text {
-  font-family: Cuprum;
+
   font-size: 30px;
   font-weight: normal;
   font-stretch: normal;
@@ -663,7 +670,7 @@ h4 {
 }
 
 .white-link {
-  font-family: Cuprum;
+
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
@@ -677,4 +684,12 @@ h4 {
 .header-top li{
   flex-grow: 1;
   margin: auto;
+}
+
+.header-bookmarks {
+  width:150px;
+}
+
+.header-cart {
+  width:150px;
 }
