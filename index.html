@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
+<head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
     <link href="https://fonts.googleapis.com/css?family=Cuprum:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
@@ -9,57 +9,67 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
 
-  <body>
-    <header>
-      <ul class="header-top">
-        <li><a href="index.html"><img src="img/logo-tehnomart-main.png" width="220" height="47" alt="Интернет магазин Tehnomart"></a></li>
-        <li>
-          <form action="https://echo.htmlacademy.ru" method="post">
-           <!-- <label class="search-label" for="search">Поиск:</label> -->
+<body>
+  <header>
+      <!-- Верхняя часть хедера -->
+      <div class="main-header-wrapper">
+        <ul class="header-top container">
+          <li><a href="index.html"><img src="img/logo-tehnomart-main.png" width="220" height="47" alt="Интернет магазин Tehnomart"></a></li>
+          <li>
+            <form action="https://echo.htmlacademy.ru" method="post">
+            <!-- <label class="search-label" for="search">Поиск:</label> -->
             <input class="header-search" id="search" type="search" name="search" placeholder="Поиск:">
-           <!-- <button type="submit"></button> -->
-          </form>
-        </li>
-        <li><a class="link header-bookmarks" href="#bookmarks" title="Закладки">Закладки: 0</a></li>
-        <li><a class="link header-cart" href="#cart" title="Корзина">Корзина: 0</a></li>
-        <li ><a class="link header-button-green" href="#submit" title="Оформить заказ">Оформить заказ</a></li>
-      </ul>
-      <ul>
-        <li>
+            <!-- <button type="submit"></button> -->
+            </form>
+          </li>
+          <li><a class="link header-bookmarks" href="#bookmarks" title="Закладки">Закладки: 0</a></li>
+          <li><a class="link header-cart" href="#cart" title="Корзина">Корзина: 0</a></li>
+          <li ><a class="link header-button-green" href="#submit" title="Оформить заказ">Оформить заказ</a></li>
+        </ul>
+      </div>
+      <div class="container">
+        <!-- Середина хедера - блок с пользовательской навигацией -->
+        <ul class="header-middle container">
+          <li>
           <p class="header-description">Интернет-магазин<br>
             строительных материалов<br>
             и инструментов для ремонта</p>
-        </li>
-        <li>
-          <p><span class="phone">+7 (495) 555-05-55</span><br>
-          <span class="header-address">г. Санкт-Петербург, ул. Конюшенная, д 19/8</span></p>
-        </li>
-        <li><a class="header-user" href="#login.html" title="Войти">Войти</a></li>
-        <li><a class="header-user" href="#signin.html" title="Регистрация">Регистрация</a></li>
-        <li>
-          <p class="header-user">Равшан Джамшутович</p>
-          <a class="header-link-underline" href="cart.html">Мои заказы</a>
-          <a class="header-link-underline" href="personal.html">Личный кабинет</a>
-        </li>
-      </ul>
-      <nav>
-        <ul class="header-top">
-          <li><a class="header-navigation" href="index.html">Главная</a></li>
-          <li><a class="header-navigation" href="about.html">Компания</a></li>
-          <li><a class="header-navigation" href="catalog.html">Каталог</a></li>
-          <li><a class="header-navigation" href="news.html">Новости</a></li>
-          <li><a class="header-navigation" href="utp.html">Спецпредложения</a></li>
-          <li><a class="header-navigation" href="delivery.html">Доставка</a></li>
-          <li><a class="header-navigation" href="contacts.html">Контакты</a></li>
+          </li>
+          <li>
+            <p><span class="phone">+7 (495) 555-05-55</span><br>
+            <span class="header-address">г. Санкт-Петербург, ул. Конюшенная, д 19/8</span></p>
+          </li>
+          <li><a class="header-user" href="#login.html" title="Войти">Войти</a></li>
+          <li><a class="header-user" href="#signin.html" title="Регистрация">Регистрация</a></li>
+          <li hidden>
+            <p class="header-user">Равшан Джамшутович</p>
+            <a class="header-link-underline" href="cart.html">Мои заказы</a>
+            <a class="header-link-underline" href="personal.html">Личный кабинет</a>
+          </li>
         </ul>
-      </nav>
+      </div>
+      <div class="container">
+        <!-- Нижняя часть хедера -  навигация по сайту -->
+        <nav class="header-bottom">
+          <ul class="header-bottom-nav">
+            <li><a class="header-navigation" href="index.html">Главная</a></li>
+            <li><a class="header-navigation" href="about.html">Компания</a></li>
+            <li><a class="header-navigation" href="catalog.html">Каталог</a></li>
+            <li><a class="header-navigation" href="news.html">Новости</a></li>
+            <li><a class="header-navigation" href="utp.html">Спецпредложения</a></li>
+            <li><a class="header-navigation" href="delivery.html">Доставка</a></li>
+            <li><a class="header-navigation" href="contacts.html">Контакты</a></li>
+        </ul>
+        </nav>
+      </div>
     </header>
-    <main>
-      <h1>Интернет магазин строительных материалов Техномарт</h1>
+  <main>
+      <h1 hidden>Интернет магазин строительных материалов Техномарт</h1>
       <!--Промо блок -->
-      <section>
-        <h2>Промо блок</h2>
-        <ul>
+      <section class="promo">
+        <div class="promo-container">
+        <h2 hidden>Промо блок</h2>
+        <ul class="promo-elements-left">
           <li class="promo-block yellow">
             <a class="link promo-link" href="catalog.html">Материалы</a>
             <span class="promo-description">На любой вкус</span>
@@ -71,30 +81,32 @@
             <img src="/img/tool-promo-icon.svg" alt="Инструменты">
           </li>
           <li>
-             <!--слайдер -->
-                        <div class="promo-slider">
-                          <img src="/img/slider-image-bosch1.jpg" alt="Дрели">
-                          <img src="/img/slider-image-bosch2.jpg" alt="Перфораторы">
-                            <div class="slider-top">
-                                <div class="slider-name">
-                                    <span class="slider-caption">ДРЕЛИ</span>
-                                    <span class="slider-slogan">Соседям на радость!</span>
-                                </div>
-                            </div>
-                            <div class="slider-middle">
-                              <button class="slider-button-left" type="button"></button>
-                              <button class="slider-button-right" type="button"></button>
-                            </div>
-                            <div class="slider-bottom">
-                                <div class="slider-bottom-ref">
-                                    <a class="link red-link" title="Открыть каталог" href="#">ОТКРЫТЬ КАТАЛОГ</a>
-                                </div>
-                                <!-- кнопки pagintion -->
-                                <div class="slider-bottom-button"></div>
-                                <div class="slider-bottom-button"></div>
-                            </div>
-                        </div>
+            <!--слайдер -->
+            <div  class="promo-slider">
+              <img src="/img/slider-image-bosch1.jpg" alt="Дрели">
+              <img hidden src="/img/slider-image-bosch2.jpg" alt="Перфораторы">
+              <div class="slider-top">
+                <div class="slider-name">
+                  <span class="slider-caption">ДРЕЛИ</span>
+                  <span class="slider-slogan">Соседям на радость!</span>
+                </div>
+              </div>
+              <div class="slider-middle">
+                <button class="slider-button-left" type="button"></button>
+                <button class="slider-button-right" type="button"></button>
+              </div>
+              <div class="slider-bottom">
+                <div class="slider-bottom-ref">
+                  <a class="link red-link" title="Открыть каталог" href="#">ОТКРЫТЬ КАТАЛОГ</a>
+                </div>
+              <!-- кнопки pagintion -->
+                <div class="slider-bottom-button"></div>
+                <div class="slider-bottom-button"></div>
+              </div>
+            </div>
           </li>
+          </ul>
+          <ul class="promo-elements-right">
           <li class="promo-block pink">
             <a class="link promo-link" href="catalog.html">Техника</a>
             <span class="promo-description">Для стройки</span>
@@ -111,6 +123,7 @@
             <img src="/img/delivery-promo-icon.svg" alt="Доставка">
           </li>
         </ul>
+        </div>
       </section>
       <!--Популярные товары -->
       <section>
@@ -337,7 +350,7 @@
         </form>
       </section>
     </main>
-    <footer>
+  <footer>
       <p>
         <a href=index.html><img src="img/logo-tehnomart-footer.png" width="220" height="68" alt="Интернет магазин Tehnomart"></a><br>
         <span class="footer-adress">г. Санкт-Петербург, ул. Конюшенная, д 19/8<br>
@@ -381,6 +394,6 @@
         </p>
       </section>
     </footer>
-  </body>
+</body>
 </html>
 

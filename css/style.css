@@ -5,7 +5,7 @@ html { box-sizing: border-box; }
 body {
   margin: 0;
   padding: 0;
-  width: 1200px;
+  min-width: 1200px;
   margin: 0 auto;
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 14px;
@@ -22,9 +22,11 @@ a {
 }
 header{
   background-color: #f4f7f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .header-top {
-  min-height: 42px;
   font-size: 17px;
   font-weight: normal;
   font-stretch: normal;
@@ -33,9 +35,9 @@ header{
   letter-spacing: normal;
   text-align: left;
   color: #ffffff;
-  background-color: #293449;
   display: flex;
   flex-direction: row;
+  align-items: baseline;
   list-style: none;
 }
 
@@ -60,6 +62,7 @@ a.link{
   letter-spacing: normal;
   text-align: left;
   color: #ee3643;
+  padding-left: 53px;
 }
 
 .phone {
@@ -87,7 +90,6 @@ a.link{
 }
 
 .header-user {
-
   font-size: 21px;
   font-weight: normal;
   font-stretch: normal;
@@ -477,6 +479,8 @@ h3{
 
 .promo-slider {
   background-color: #76685b;
+  width: 620px;
+  height: 266px;
 }
 
 .services {
@@ -692,4 +696,76 @@ h4 {
 
 .header-cart {
   width:150px;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header-bottom {
+  background-color: #293449;
+  min-height: 60px;
+}
+
+.header-middle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main-header-wrapper {
+  width: 100%;
+  background-color: #293449;
+  min-height: 42px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.header-bottom-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.promo-block {
+  display: flex;
+  width:300px;
+  min-height: 123px;
+  margin-bottom: 20px;
+
+  }
+
+.promo-elements-left {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  align-items:flex-start;
+  list-style: none;
+  width:620px;
+  min-height: 410px;
+  padding: 0;
+  margin: 0;
+}
+
+.promo-elements-right {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+.promo {
+  padding-top: 59px;
+}
+
+.promo-container {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
+  display: flex;
+  justify-content:space-between;
 }
