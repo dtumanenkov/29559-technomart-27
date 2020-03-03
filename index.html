@@ -11,44 +11,48 @@
 
 <body>
   <header class="main-header">
+    <nav class="main-navigation" >
       <!-- Верхняя часть хедера -->
-      <nav class="main-navigation" >
-        <ul class="header-top container">
-          <li><a href="index.html"><img src="img/logo-tehnomart-main.png" width="220" height="47" alt="Интернет магазин Tehnomart"></a></li>
-          <li>
-            <form action="https://echo.htmlacademy.ru" method="post">
+      <div class="header-top">
+        <div class="container">
+          <a class="header-logo" href="index.html"><img src="img/logo-tehnomart-main.png" width="220" height="47" alt="Интернет магазин Tehnomart"></a>
+          <form action="https://echo.htmlacademy.ru" method="post">
             <!-- <label class="search-label" for="search">Поиск:</label> -->
             <input class="header-search" id="search" type="search" name="search" placeholder="Поиск:">
             <!-- <button type="submit"></button> -->
-            </form>
-          </li>
-          <li><a class="link header-bookmarks" href="#bookmarks" title="Закладки">Закладки: 0</a></li>
-          <li><a class="link header-cart" href="#cart" title="Корзина">Корзина: 0</a></li>
-          <li ><a class="link header-button-green" href="#submit" title="Оформить заказ">Оформить заказ</a></li>
-        </ul>
+          </form>
+          <a class="link header-bookmarks" href="#bookmarks" title="Закладки">Закладки: 0</a>
+          <a class="link header-cart" href="#cart" title="Корзина">Корзина: 0</a>
+          <a class="link header-button-green" href="#submit" title="Оформить заказ">Оформить заказ</a>
+        </div>
+      </div>
 
 
         <!-- Середина хедера - блок с пользовательской навигацией -->
-        <ul class="header-middle container">
-          <li>
-          <p class="header-description">Интернет-магазин<br>
-            строительных материалов<br>
-            и инструментов для ремонта</p>
-          </li>
-          <li>
-            <p><span class="phone">+7 (495) 555-05-55</span><br>
-            <span class="header-address">г. Санкт-Петербург, ул. Конюшенная, д 19/8</span></p>
-          </li>
-          <li><a class="header-user" href="#login.html" title="Войти">Войти</a></li>
-          <li><a class="header-user" href="#signin.html" title="Регистрация">Регистрация</a></li>
-          <li hidden>
-            <p class="header-user">Равшан Джамшутович</p>
-            <a class="header-link-underline" href="cart.html">Мои заказы</a>
-            <a class="header-link-underline" href="personal.html">Личный кабинет</a>
-          </li>
-        </ul>
-
-
+      <div class="header-middle">
+        <div class="container">
+          <ul class=user-navigation-list>
+            <li class="user-navigation-item">
+              <p class="header-description">Интернет-магазин&nbsp;
+              строительных материалов&nbsp;
+              и инструментов для ремонта</p>
+            </li>
+            <li class="user-navigation-item">
+              <p><span class="phone">+7 (495) 555-05-55</span><br>
+              <span class="header-address">г. Санкт-Петербург, ул. Конюшенная, д 19/8</span></p>
+            </li>
+            <li class="user-navigation-item">
+              <a class="header-user" href="#login.html" title="Войти">Войти</a>
+              <a class="header-user" href="#signin.html" title="Регистрация">Регистрация</a>
+            </li>
+            <li hidden class="user-navigation-item">
+              <p class="header-user">Равшан Джамшутович</p>
+              <a class="header-link-underline" href="cart.html">Мои заказы</a>
+              <a class="header-link-underline" href="personal.html">Личный кабинет</a>
+            </li>
+          </ul>
+        </div>
+      </div>
         <!-- Нижняя часть хедера -  навигация по сайту -->
 
          <ul class="header-bottom-nav container">
